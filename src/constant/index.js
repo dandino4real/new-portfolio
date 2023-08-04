@@ -27,6 +27,13 @@ import {
   tripguide,
   threejs,
   findfood,
+  ilearn,
+  house,
+  dashboard,
+  weather,
+  fitness,
+  smoove,
+  rider,
 } from "../assets";
 
 export const navLinks = [
@@ -185,6 +192,52 @@ const testimonials = [
 
 const projects = [
   {
+    name: "SwiftRider",
+    description:
+      "Web-based platform connecting pickup users with riders, streamlining logistics.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+
+    image: rider,
+    source_code_link: "https://github.com/dandino4real/swift-Rider",
+   website: "https://swift-rider.netlify.com/",
+  },
+  {
+    name: "Smoove",
+    description:
+      "A music app for endless tunes and seamless playlists. Elevate your listening experience with personalized tracks on the go.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Styled Components",
+        color: "pink-text-gradient",
+      },
+    ],
+
+    image: smoove,
+    source_code_link: "https://github.com/dandino4real/Music-App",
+   website: "https://smoozepro.netlify.app",
+  },
+  {
     name: "iLearn",
     description:
       "Web-based platform that allows learners to meet verified tutors and upgrade their skill-set with relevant courses.",
@@ -202,21 +255,89 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: smooze,
-    source_code_link: "https://github.com/",
-    hosted_link: "https://ilearn-sq012-node.netlify.app"
+
+    image: ilearn,
+    source_code_link: "https://github.com/dandino4real/iLearn-api",
+   website: "https://ilearn-sq012-node.netlify.app",
   },
+
   {
     name: "AirBnb Clone",
     description:
-      "Web application that enables users to search for food to cook based on the ingredients they have in their kitchen. And also provide a list of recipes for the selected food and videos link on how to prepare the meal.",
+      "Your ultimate travel companion. Discover, book, and stay in unique accommodations worldwide with ease. Unleash the wanderlust within you",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: house,
+    source_code_link: "https://github.com/dandino4real/airBnb",
+   website: "https://daniel-airbnb.netlify.app/",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "A web application that simplifies financial data and user management for seamless monitoring and control.",
     tags: [
       {
         name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "Restapi",
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link: "https://github.com/dandino4real/Dashboard",
+   website: "https://dandino-dashboard.netlify.app/",
+  },
+  {
+    name: "Weather Application ",
+    description:
+      " web application that provides users with real-time weather updates and forecasts.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Material Ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/dandino4real/WeatherApp",
+   website: "https://dandino-weather-app.netlify.app/",
+  },
+  {
+    name: "Fitness Application",
+    description:
+      "A sleek and user-friendly web application where fitness enthusiasts can explore and book accommodations tailored to their active lifestyle.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML 5",
         color: "green-text-gradient",
       },
       {
@@ -224,20 +345,21 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: findfood,
-    source_code_link: "https://github.com/find-food",
+    image: fitness,
+    source_code_link: "https://github.com/dandino4real/fitnessApp",
+   website: "https://dandino-fitness-app..netlify.app",
   },
   {
-    name: "Event Ticketing App",
+    name: "Food Ordering App",
     description:
-      " web application that allows users to pay for event tickets online.",
+      "Web application that allows users to explore and find a variety of delicious cooked meals.",
     tags: [
       {
-        name: "Javascript",
+        name: "Nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "RESTapi",
+        name: "RestApi",
         color: "green-text-gradient",
       },
       {
@@ -245,8 +367,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com//Paystack-integration",
+    image: findfood,
+    source_code_link: "https://github.com/dandino4real/food-app",
+   website: "https://foodorderring.netlify.app/",
   },
 ];
 

@@ -30,22 +30,19 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // 
-    // 
-    // 
 
     emailjs
       .send(
-        'service_zf61xzl',
-          'template_rcvn2f8',
+        'service_zf61x',
+          'template_rcvn2f',
         {
           from_name: form.name,
-          to_name: "Ndifreke Etukudo",
+          to_name: "Daniel Iwegbue",
           from_email: form.email,
-          to_email: "ndyetuk101@gmail.com",
+          to_email: "ifyd47@gmail.com",
           message: form.message,
         },
-        'RdwJGBoCAqEEwKik0'
+        'RdwJGBoCAqEEwKik'
       )
       .then(
         () => {
@@ -62,7 +59,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert(" Something went wrong. Please try again.");
         }
       );
   };

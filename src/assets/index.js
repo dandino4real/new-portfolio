@@ -35,6 +35,14 @@ import smooze from "./smooze.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ilearn from "./iPhoto.jpeg"
+import house from "./house.jpeg"
+import dashboard from "./dashboard.jpeg"
+import weather from "./weather.jpeg"
+import fitness from "./gym.webp"
+import smoove from "./smoove-pix.jpeg"
+import rider from "./rider2.jpeg"
+
 
 
 
@@ -74,4 +82,11 @@ export {
   jobit,
   findfood,
   tripguide,
+  ilearn,
+  house,
+  dashboard, 
+  weather,
+  fitness,
+  smoove,
+  rider
 };
