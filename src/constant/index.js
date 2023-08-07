@@ -26,7 +26,6 @@ import {
   jobit,
   tripguide,
   threejs,
-  findfood,
   ilearn,
   house,
   dashboard,
@@ -212,7 +211,7 @@ const projects = [
 
     image: rider,
     source_code_link: "https://github.com/dandino4real/swift-Rider",
-   website: "https://swift-rider.netlify.com/",
+    website: "https://swift-rider.netlify.com/",
   },
   {
     name: "Smoove",
@@ -235,7 +234,7 @@ const projects = [
 
     image: smoove,
     source_code_link: "https://github.com/dandino4real/Music-App",
-   website: "https://smoozepro.netlify.app",
+    website: "https://smoozepro.netlify.app",
   },
   {
     name: "iLearn",
@@ -258,7 +257,7 @@ const projects = [
 
     image: ilearn,
     source_code_link: "https://github.com/dandino4real/iLearn-api",
-   website: "https://ilearn-sq012-node.netlify.app",
+    website: "https://ilearn-sq012-node.netlify.app",
   },
 
   {
@@ -281,7 +280,7 @@ const projects = [
     ],
     image: house,
     source_code_link: "https://github.com/dandino4real/airBnb",
-   website: "https://daniel-airbnb.netlify.app/",
+    website: "https://daniel-airbnb.netlify.app/",
   },
   {
     name: "Admin Dashboard",
@@ -303,7 +302,7 @@ const projects = [
     ],
     image: dashboard,
     source_code_link: "https://github.com/dandino4real/Dashboard",
-   website: "https://dandino-dashboard.netlify.app/",
+    website: "https://dandino-dashboard.netlify.app/",
   },
   {
     name: "Weather Application ",
@@ -325,7 +324,7 @@ const projects = [
     ],
     image: weather,
     source_code_link: "https://github.com/dandino4real/WeatherApp",
-   website: "https://dandino-weather-app.netlify.app/",
+    website: "https://dandino-weather-app.netlify.app/",
   },
   {
     name: "Fitness Application",
@@ -347,7 +346,7 @@ const projects = [
     ],
     image: fitness,
     source_code_link: "https://github.com/dandino4real/fitnessApp",
-   website: "https://dandino-fitness-app..netlify.app",
+    website: "https://dandino-fitness-app..netlify.app",
   },
   {
     name: "Food Ordering App",
@@ -369,7 +368,7 @@ const projects = [
     ],
     image: findfood,
     source_code_link: "https://github.com/dandino4real/food-app",
-   website: "https://foodorderring.netlify.app/",
+    website: "https://foodorderring.netlify.app/",
   },
 ];
 
